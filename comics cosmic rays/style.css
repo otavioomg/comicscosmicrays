@@ -1,0 +1,41 @@
+/* Remove margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o vídeo de fundo */
+#background-video {
+    position: fixed; /* Fixa o vídeo no fundo */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cobre 100% da largura */
+    height: 100%; /* Cobre 100% da altura */
+    object-fit: cover; /* Garante que o vídeo se ajuste sem deformar */
+    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+    opacity: 0.9; /* (Opcional) Adiciona um leve efeito de transparência */
+}
+
+/* Estilo do conteúdo */
+.content {
+    position: relative;
+    z-index: 1; /* Mantém o conteúdo acima do vídeo */
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
