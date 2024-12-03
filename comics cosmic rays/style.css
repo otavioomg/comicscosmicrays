@@ -32,10 +32,29 @@ body, html {
     padding: 20px;
 }
 
-h1 {
+.Titulo {
     font-size: 3rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
 }
 
 p {
     font-size: 1.5rem;
+}
+
+.navbar-brand {
+    margin-left: 45%;
+}
+
+.carousel-item active {
+    width: 10%;
+}
+
+.carousel{
+    width: 50%;
+    margin-left: 25px;
+    border-radius: 100%;
+}
+
+.slide {
+    border-radius: 100%;
 }
