@@ -53,8 +53,41 @@ p {
     width: 50%;
     margin-left: 25px;
     border-radius: 100%;
+    position:relative;
 }
 
 .slide {
     border-radius: 100%;
+    position:absolute;
+}
+
+.texto{
+    flex:1;
+    position:absolute;
+    padding:20px;
+    top: 155px;
+    margin-right:70px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1.0);
+    color:#e8e8e8;
+    text-align:justify;
+    margin-left:55%;
+}
+
+.caixa {
+    background-color: orange;
+    padding: 50px;
+    border-radius: 50px;
+    margin-top: 50px;
+    width: 40%;
+    margin-left: 55%;
+}
+
+footer {
+    background-image: url(fundos/pexels-felixmittermeier-957040-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
 }
