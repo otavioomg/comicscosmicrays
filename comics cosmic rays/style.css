@@ -32,9 +32,16 @@ body, html {
     padding: 20px;
 }
 
+
+
+a{
+    flex-direction: row;
+}
+
 .Titulo {
     font-size: 3rem;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    margin-top:-17%;
 }
 
 p {
@@ -46,48 +53,139 @@ p {
 }
 
 .carousel-item active {
-    width: 10%;
+    width: 1
 }
 
 .carousel{
     width: 50%;
     margin-left: 25px;
-    border-radius: 100%;
-    position:relative;
+    position:absolute;
+
 }
 
 .slide {
     border-radius: 100%;
     position:absolute;
+    margin-top: -100px;
 }
 
 .texto{
     flex:1;
-    position:absolute;
     padding:20px;
-    top: 155px;
-    margin-right:70px;
+    margin-top: -30px;
+    margin-right:1%;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 1.0);
     color:#e8e8e8;
     text-align:justify;
     margin-left:55%;
+    font-size:25px;
+    position:absolute;
+    max-height: 100px;
+    max-width: 100%;
 }
 
 .caixa {
     background-color: orange;
     padding: 50px;
     border-radius: 50px;
-    margin-top: 50px;
     width: 40%;
-    margin-left: 55%;
+    margin-left: 58%;
+    position:relative;
+    margin-top: 50px;
+    position:absolute;
+    bottom:-630px;
 }
 
 footer {
-    background-image: url(fundos/pexels-felixmittermeier-957040-removebg-preview.png);
+    background-image: url(fundos/footer.png);
     background-size: cover;
     background-position: center;
     color: white;
     padding: 20px;
     background-repeat: no-repeat;
     text-align: center;
+    position:relative;
 }
+.mr{
+    max-width: 50%;
+    width:50%;
+    text-align: justify;
+    color:#e8e8e8;
+    margin-left:20px;
+    position:absolute;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 20);
+}
+
+.r{
+    max-width: 50%;
+    width:50%;
+    text-align: justify;
+    color:#e8e8e8;
+    margin-left:20px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 20);
+    margin-top: 400px;
+}
+
+.i{
+    max-width: 50%;
+    width:50%;
+    text-align: justify;
+    color:#e8e8e8;
+    margin-left:20px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 20);
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+     .texto {
+         font-size: 14px;
+         margin-right:30px; 
+         padding:1.5%;
+         max-width: 100%;
+         width: 90%;
+         margin-left:10px;
+         position:relative;
+         top:400px;
+         
+        }
+    .carousel{
+        max-width: 100%;
+        width: 90%;
+        margin-top: -30px;
+        position:relative;
+    }
+    .caixa{
+        width: 90%;
+        margin-left: 20px;
+        bottom:-50px;
+        position:relative;
+    }
+
+    .r{
+        font-size: 14px;
+        max-width: 100%;
+        width: 90%;
+        margin-left:10px;
+        margin-right:30px;
+        position:relative;
+    }
+
+    .i{
+        font-size: 14px;
+        max-width: 100%;
+        width: 90%;
+        margin-left:10px;
+        margin-right:30px;
+        position:relative;
+    }
+    .mr{
+        top:370px;
+        font-size: 14px;
+        max-width: 100%;
+        width: 90%;
+        margin-left:10px;
+        margin-right:30px;
+        position:relative;
+    }
+
+    }
